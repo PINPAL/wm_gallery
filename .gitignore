@@ -4,5 +4,6 @@ maps/*
 
 # Except
 !.gitignore
+!/compiledMap/*
 !/maps/wm_gallery*
 
