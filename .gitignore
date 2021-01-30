@@ -1,6 +1,8 @@
 # Ignore everything
-*
+maps/*
+/csgo/
 
 # Except
 !.gitignore
-!maps/
+!/maps/wm_gallery*
+
