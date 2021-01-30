@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8456"
-	"mapversion" "7"
+	"mapversion" "9"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "2"
+	"nGridSpacing" "4"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "7"
+	"mapversion" "9"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -15744,7 +15744,7 @@ world
 		side
 		{
 			"id" "6639"
-			"plane" "(-96 434 -410) (-80 434 -410) (-80 370 -410)"
+			"plane" "(-96 370 -414) (-96 434 -414) (-80 434 -414)"
 			"material" "CONCRETE/HR_C/HR_CONC_F"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 494.996] 0.25"
@@ -15755,7 +15755,7 @@ world
 		side
 		{
 			"id" "6638"
-			"plane" "(-96 370 -512) (-80 370 -512) (-80 434 -512)"
+			"plane" "(-96 434 -512) (-96 370 -512) (-80 370 -512)"
 			"material" "CONCRETE/HR_C/HR_CONC_F"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 494.996] 0.25"
@@ -15766,7 +15766,7 @@ world
 		side
 		{
 			"id" "6637"
-			"plane" "(-96 434 -410) (-96 370 -410) (-96 370 -512)"
+			"plane" "(-96 370 -512) (-96 434 -512) (-96 434 -414)"
 			"material" "CONCRETE/HR_C/HR_CONC_F"
 			"uaxis" "[0 1 0 -494.996] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -15777,7 +15777,7 @@ world
 		side
 		{
 			"id" "6636"
-			"plane" "(-80 434 -512) (-80 370 -512) (-80 370 -410)"
+			"plane" "(-80 434 -512) (-80 370 -512) (-80 370 -414)"
 			"material" "CONCRETE/HR_C/HR_CONC_F"
 			"uaxis" "[0 1 0 -494.996] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -15788,7 +15788,7 @@ world
 		side
 		{
 			"id" "6635"
-			"plane" "(-80 434 -410) (-96 434 -410) (-96 434 -512)"
+			"plane" "(-96 434 -512) (-80 434 -512) (-80 434 -414)"
 			"material" "CONCRETE/HR_C/HR_CONC_F"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -15799,7 +15799,7 @@ world
 		side
 		{
 			"id" "6634"
-			"plane" "(-80 370 -512) (-96 370 -512) (-96 370 -410)"
+			"plane" "(-80 370 -512) (-96 370 -512) (-96 370 -414)"
 			"material" "CONCRETE/HR_C/HR_CONC_F"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -15820,7 +15820,7 @@ world
 		side
 		{
 			"id" "6651"
-			"plane" "(-96 434 -320) (-80 434 -320) (-80 370 -320)"
+			"plane" "(-96 370 -320) (-96 434 -320) (-80 434 -320)"
 			"material" "CONCRETE/HR_C/HR_CONC_F"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 304] 0.25"
@@ -15831,7 +15831,7 @@ world
 		side
 		{
 			"id" "6650"
-			"plane" "(-96 370 -336) (-80 370 -336) (-80 434 -336)"
+			"plane" "(-96 434 -340) (-96 370 -340) (-80 370 -340)"
 			"material" "CONCRETE/HR_C/HR_CONC_F"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 304] 0.25"
@@ -15842,7 +15842,7 @@ world
 		side
 		{
 			"id" "6649"
-			"plane" "(-96 434 -320) (-96 370 -320) (-96 370 -336)"
+			"plane" "(-96 370 -340) (-96 434 -340) (-96 434 -320)"
 			"material" "CONCRETE/HR_C/HR_CONC_F"
 			"uaxis" "[0 1 0 -304] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -15853,7 +15853,7 @@ world
 		side
 		{
 			"id" "6648"
-			"plane" "(-80 434 -336) (-80 370 -336) (-80 370 -320)"
+			"plane" "(-80 434 -340) (-80 370 -340) (-80 370 -320)"
 			"material" "CONCRETE/HR_C/HR_CONC_F"
 			"uaxis" "[0 1 0 -304] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -15864,7 +15864,7 @@ world
 		side
 		{
 			"id" "6647"
-			"plane" "(-80 434 -320) (-96 434 -320) (-96 434 -336)"
+			"plane" "(-96 434 -340) (-80 434 -340) (-80 434 -320)"
 			"material" "CONCRETE/HR_C/HR_CONC_F"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -15875,7 +15875,7 @@ world
 		side
 		{
 			"id" "6646"
-			"plane" "(-80 370 -336) (-96 370 -336) (-96 370 -320)"
+			"plane" "(-80 370 -340) (-96 370 -340) (-96 370 -320)"
 			"material" "CONCRETE/HR_C/HR_CONC_F"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -30767,7 +30767,7 @@ entity
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"angles" "0 0 0"
-	"origin" "456.39 -317.682 1527"
+	"origin" "-108 -144 1527"
 	editor
 	{
 		"color" "220 30 220"
@@ -30986,7 +30986,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"spawnflags" "264"
-	"origin" "-88 402 -376"
+	"origin" "-88 402 -380"
 	editor
 	{
 		"color" "220 30 220"
@@ -31540,8 +31540,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[68.2445 514.243 -308.451]"
-		"look" "[68.249 513.637 -309.248]"
+		"position" "[805.673 -468.987 1368.1]"
+		"look" "[804.805 -468.601 1368.41]"
 	}
 }
 cordons
