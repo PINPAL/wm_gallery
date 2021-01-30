@@ -1,8 +1,20 @@
 # Ignore everything
 maps/*
 /csgo/
+/bin/
+/directx_installer/
+/EmptySteamDepot/
+/platform/
+/sdk_tools/
+chrome.pak
+csgo.signatures
+foreign.signatures
+installscript.vdf
+steam_appid.txt
+thirdpartylegalnotices.doc
+csgo.exe
 
 # Except
 !.gitignore
-!/maps/wm_gallery*
+!/sdkcontent/maps/wm_gallery*
 
