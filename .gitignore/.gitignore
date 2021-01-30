@@ -1,0 +1,6 @@
+# Ignore everything
+*
+
+# Except
+!.gitignore
+!maps/wm_gallery*
