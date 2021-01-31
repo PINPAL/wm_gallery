@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8456"
-	"mapversion" "11"
+	"mapversion" "12"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "11"
+	"mapversion" "12"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -26293,7 +26293,7 @@ entity
 	"classname" "info_player_terrorist"
 	"angles" "0 0 0"
 	"enabled" "1"
-	"origin" "-1264 560 -463"
+	"origin" "-1264 560 -464"
 	editor
 	{
 		"color" "220 30 220"
@@ -26564,7 +26564,7 @@ entity
 	"classname" "info_player_counterterrorist"
 	"angles" "0 180 0"
 	"enabled" "1"
-	"origin" "1539.05 -134.462 -384"
+	"origin" "1536 -134.462 -384"
 	editor
 	{
 		"color" "220 30 220"
@@ -26994,7 +26994,7 @@ entity
 	"classname" "info_player_counterterrorist"
 	"angles" "0 180 0"
 	"enabled" "1"
-	"origin" "1536 -16 -383"
+	"origin" "1536 -16 -384"
 	editor
 	{
 		"color" "220 30 220"
@@ -27160,8 +27160,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-981.941 697.379 -330.081]"
-		"look" "[-988.675 694.321 -333.129]"
+		"position" "[-232.003 -453.017 206.809]"
+		"look" "[-233.258 -446.176 202.858]"
 	}
 }
 cordons
