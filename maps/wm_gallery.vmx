@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8456"
-	"mapversion" "13"
+	"mapversion" "14"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "13"
+	"mapversion" "14"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -26293,7 +26293,7 @@ entity
 	"classname" "info_player_terrorist"
 	"angles" "0 0 0"
 	"enabled" "1"
-	"origin" "-1264 560 -464"
+	"origin" "-1264 560 -456"
 	editor
 	{
 		"color" "220 30 220"
@@ -26564,7 +26564,7 @@ entity
 	"classname" "info_player_counterterrorist"
 	"angles" "0 180 0"
 	"enabled" "1"
-	"origin" "1536 -134.462 -384"
+	"origin" "1536 -134.462 -376"
 	editor
 	{
 		"color" "220 30 220"
@@ -26579,7 +26579,7 @@ entity
 	"classname" "info_player_terrorist"
 	"angles" "0 0 0"
 	"enabled" "1"
-	"origin" "-1264 640 -464"
+	"origin" "-1264 640 -456"
 	editor
 	{
 		"color" "220 30 220"
@@ -26994,7 +26994,7 @@ entity
 	"classname" "info_player_counterterrorist"
 	"angles" "0 180 0"
 	"enabled" "1"
-	"origin" "1536 -16 -384"
+	"origin" "1536 -16 -376"
 	editor
 	{
 		"color" "220 30 220"
@@ -27160,8 +27160,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[1365.55 344.998 -22.3617]"
-		"look" "[1368.31 338.555 -26.2153]"
+		"position" "[-1160.46 561.159 -383.309]"
+		"look" "[-1168.09 563.005 -384.862]"
 	}
 }
 cordons
