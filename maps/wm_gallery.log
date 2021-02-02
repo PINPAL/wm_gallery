@@ -1097,3 +1097,179 @@ Total triangle count: 7743
 Writing c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp
 MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp', but we don't own that location. Allowing...
 9 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.vmf
+Map revision 20
+Brush 23542: FloatPlane: bad normal
+Side 0
+Texture: HR_MASSIVE/DIRT_GROUND_1B_NOGRASS
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.vmf
+Map revision 20
+Brush 23542: FloatPlane: bad normal
+Side 0
+Texture: HR_MASSIVE/DIRT_GROUND_1B_NOGRASS
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.vmf
+Map revision 21
+Brush 23542: FloatPlane: bad normal
+Side 0
+Texture: GRASS/HR_GRASS/GRASS_B
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.vmf
+Map revision 21
+Brush 23542: FloatPlane: bad normal
+Side 0
+Texture: GRASS/HR_GRASS/GRASS_B
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.vmf
+Map revision 21
+Brush 23542: FloatPlane: bad normal
+Side 0
+Texture: GRASS/HR_GRASS/GRASS_B
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.vmf
+Map revision 22
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (152848 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 177 texinfos to 137
+Reduced 14 texdatas to 13 (378 bytes to 341)
+Writing c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+12 threads
+reading c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp
+reading c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.prt
+1109 portalclusters
+3644 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 41523 visible clusters (0.00%)
+Total clusters visible: 1003628
+Average clusters visible: 904
+Building PAS...
+Average clusters audible: 1107
+visdatasize:308957  compressed from 319392
+writing c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp
+3043 faces
+18 degenerate faces
+1408886 square feet [202879616.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3025 patches before subdivision
+56833 patches after subdivision
+20 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4836067, max 1026
+transfer lists:  36.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(74201, 74152, 75840)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(18334, 17781, 18119)
+Build Patch/Sample Hash Table(s).....Done<0.0122 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                404/8192         4848/98304    ( 4.9%) 
+brushsides            3636/81920       29088/655360   ( 4.4%) 
+planes                3588/65536       71760/1310720  ( 5.5%) 
+vertexes              4272/65536       51264/786432   ( 6.5%) 
+nodes                 1990/65536       63680/2097152  ( 3.0%) 
+texinfos               137/12288        9864/884736   ( 1.1%) 
+texdata                 13/4096          416/131072   ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3043/65536      170408/3670016  ( 4.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1316/65536       73696/3670016  ( 2.0%) 
+facebrushes            862/0            1724/0        ( 0.0%) 
+facebrushlists        3043/0           12172/0        ( 0.0%) 
+leaves                1995/65536       63840/2097152  ( 3.0%) 
+leaffaces             3526/65536        7052/131072   ( 5.4%) 
+leafbrushes           1940/65536        3880/131072   ( 3.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            20159/512000      80636/2048000  ( 3.9%) 
+edges                11112/256000      44448/1024000  ( 4.3%) 
+LDR worldlights         20/8192         2000/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            358/32768        3580/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5670/65536       11340/131072   ( 8.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     4380468/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      308957/16777216 ( 1.8%) 
+entdata               [variable]        7640/393216   ( 1.9%) 
+LDR ambient table     1995/65536        7980/262144   ( 3.0%) 
+HDR ambient table     1995/65536        7980/262144   ( 3.0%) 
+LDR leaf ambient      7770/65536      217560/1835008  (11.9%) 
+HDR leaf ambient      1995/65536       55860/1835008  ( 3.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3578     ( 0.0%) 
+pakfile               [variable]      497850/0        ( 0.0%) 
+physics               [variable]      152848/4194304  ( 3.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 8916
+Writing c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp', but we don't own that location. Allowing...
+12 seconds elapsed
