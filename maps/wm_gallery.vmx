@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8456"
-	"mapversion" "55"
+	"mapversion" "56"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "55"
+	"mapversion" "56"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1566,8 +1566,7 @@ world
 		}
 		editor
 		{
-			"color" "251 116 0"
-			"groupid" "83767"
+			"color" "0 176 169"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -1643,8 +1642,7 @@ world
 		}
 		editor
 		{
-			"color" "251 116 0"
-			"groupid" "83767"
+			"color" "0 154 103"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -1720,8 +1718,7 @@ world
 		}
 		editor
 		{
-			"color" "251 116 0"
-			"groupid" "83767"
+			"color" "0 112 253"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -1797,8 +1794,7 @@ world
 		}
 		editor
 		{
-			"color" "251 116 0"
-			"groupid" "83767"
+			"color" "0 250 187"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -1874,8 +1870,7 @@ world
 		}
 		editor
 		{
-			"color" "251 116 0"
-			"groupid" "83767"
+			"color" "0 192 253"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -1951,7 +1946,7 @@ world
 		}
 		editor
 		{
-			"color" "251 116 0"
+			"color" "0 158 167"
 			"groupid" "83302"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
@@ -2028,7 +2023,7 @@ world
 		}
 		editor
 		{
-			"color" "251 116 0"
+			"color" "0 158 167"
 			"groupid" "83302"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
@@ -89526,16 +89521,6 @@ world
 	}
 	group
 	{
-		"id" "92558"
-		editor
-		{
-			"color" "194 219 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
 		"id" "92579"
 		editor
 		{
@@ -89559,18 +89544,7 @@ world
 		"id" "83302"
 		editor
 		{
-			"color" "251 116 0"
-			"groupid" "83767"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "83767"
-		editor
-		{
-			"color" "251 116 0"
+			"color" "0 158 167"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -91065,8 +91039,7 @@ entity
 	"origin" "-90.5077 -116.205 -447"
 	editor
 	{
-		"color" "251 116 0"
-		"groupid" "83767"
+		"color" "0 104 133"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 3500]"
@@ -91079,17 +91052,16 @@ entity
 	"angles" "0 343 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/inventory_items/cologne_trophy_quarterfinalist.mdl"
+	"model" "models/props/de_inferno/head_sculpture.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"uniformscale" "1.96"
+	"uniformscale" "1.54"
 	"origin" "-140.93 -287.969 -418"
 	editor
 	{
-		"color" "251 116 0"
-		"groupid" "83767"
+		"color" "0 162 171"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4000]"
@@ -91111,8 +91083,7 @@ entity
 	"origin" "-104.992 -156.742 -377"
 	editor
 	{
-		"color" "251 116 0"
-		"groupid" "83767"
+		"color" "0 240 145"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -91156,34 +91127,10 @@ entity
 	"origin" "-125.458 -223.683 -377"
 	editor
 	{
-		"color" "251 116 0"
-		"groupid" "83767"
+		"color" "0 150 239"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 5500]"
-	}
-}
-entity
-{
-	"id" "82078"
-	"classname" "prop_static"
-	"angles" "-11 343 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/inventory_items/operation_10_gold.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"uniformscale" "1"
-	"origin" "-78.0026 -160.811 -432"
-	editor
-	{
-		"color" "251 116 0"
-		"groupid" "83767"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 6000]"
 	}
 }
 entity
@@ -91202,8 +91149,7 @@ entity
 	"origin" "-115.438 -194.33 -354"
 	editor
 	{
-		"color" "251 116 0"
-		"groupid" "83767"
+		"color" "0 130 231"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 7500]"
@@ -91269,8 +91215,7 @@ entity
 	"origin" "-62.519 -185.412 -422"
 	editor
 	{
-		"color" "251 116 0"
-		"groupid" "83767"
+		"color" "0 132 225"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 9000]"
@@ -91292,8 +91237,7 @@ entity
 	"origin" "-180.217 -272.82 -438"
 	editor
 	{
-		"color" "251 116 0"
-		"groupid" "83767"
+		"color" "0 154 131"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 9500]"
@@ -94943,8 +94887,7 @@ entity
 	"origin" "-99.3824 -128.132 1527"
 	editor
 	{
-		"color" "251 116 0"
-		"groupid" "83767"
+		"color" "0 224 197"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
@@ -95087,8 +95030,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-88.2159 -1935.02 -146.519]"
-		"look" "[-208.964 -1789.05 -149.164]"
+		"position" "[-371.765 -824.47 -265.516]"
+		"look" "[-186.77 -865.158 -269.483]"
 	}
 }
 cordons
