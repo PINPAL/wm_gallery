@@ -89526,16 +89526,6 @@ world
 	}
 	group
 	{
-		"id" "92558"
-		editor
-		{
-			"color" "194 219 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
 		"id" "92579"
 		editor
 		{
