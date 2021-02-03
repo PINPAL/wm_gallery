@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8456"
-	"mapversion" "56"
+	"mapversion" "58"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,12 +26,88 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "56"
+	"mapversion" "58"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_dust"
+	solid
+	{
+		"id" "95504"
+		side
+		{
+			"id" "19278"
+			"plane" "(1333 -1456 -128) (1388 -1456 -128) (1388 -1496 -128)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "19279"
+			"plane" "(1333 -1496 -310.328) (1388 -1496 -310.328) (1388 -1456 -310.328)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "19280"
+			"plane" "(1333 -1456 -128) (1333 -1496 -128) (1333 -1496 -310.328)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "19281"
+			"plane" "(1388 -1456 -310.328) (1388 -1496 -310.328) (1388 -1496 -128)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "19282"
+			"plane" "(1388 -1456 -128) (1333 -1456 -128) (1333 -1456 -310.328)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "19283"
+			"plane" "(1388 -1496 -310.328) (1333 -1496 -310.328) (1333 -1496 -128)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 146 211"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	hidden
 	{
 		solid
@@ -90621,9 +90697,9 @@ entity
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "0"
-	"solid" "6"
-	"uniformscale" "1.96"
-	"origin" "1352 -1467 -222"
+	"solid" "0"
+	"uniformscale" "2.38"
+	"origin" "1348 -1478 -228"
 	editor
 	{
 		"color" "255 255 0"
@@ -91039,7 +91115,7 @@ entity
 	"origin" "-90.5077 -116.205 -447"
 	editor
 	{
-		"color" "0 104 133"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 3500]"
@@ -91061,7 +91137,7 @@ entity
 	"origin" "-140.93 -287.969 -418"
 	editor
 	{
-		"color" "0 162 171"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4000]"
@@ -91083,7 +91159,7 @@ entity
 	"origin" "-104.992 -156.742 -377"
 	editor
 	{
-		"color" "0 240 145"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -91127,7 +91203,7 @@ entity
 	"origin" "-125.458 -223.683 -377"
 	editor
 	{
-		"color" "0 150 239"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 5500]"
@@ -91136,20 +91212,37 @@ entity
 entity
 {
 	"id" "83327"
-	"classname" "prop_static"
+	"classname" "prop_physics"
 	"angles" "0 343 0"
+	"body" "0"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"disablereceiveshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"ExploitableByPlayer" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
+	"minhealthdmg" "3"
 	"model" "models/props_junk/glassbottle01a.mdl"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
 	"skin" "0"
-	"solid" "6"
-	"uniformscale" "2.76"
-	"origin" "-115.438 -194.33 -354"
+	"spawnflags" "256"
+	"origin" "-115.438 -194 -366"
 	editor
 	{
-		"color" "0 130 231"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 7500]"
@@ -91215,7 +91308,7 @@ entity
 	"origin" "-62.519 -185.412 -422"
 	editor
 	{
-		"color" "0 132 225"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 9000]"
@@ -91237,7 +91330,7 @@ entity
 	"origin" "-180.217 -272.82 -438"
 	editor
 	{
-		"color" "0 154 131"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 9500]"
@@ -94887,7 +94980,7 @@ entity
 	"origin" "-99.3824 -128.132 1527"
 	editor
 	{
-		"color" "0 224 197"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
@@ -95030,8 +95123,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-371.765 -824.47 -265.516]"
-		"look" "[-186.77 -865.158 -269.483]"
+		"position" "[999.64 -1627.14 -86.4112]"
+		"look" "[1127.66 -1516.65 -171.833]"
 	}
 }
 cordons
