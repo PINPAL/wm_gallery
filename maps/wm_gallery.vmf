@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8456"
-	"mapversion" "78"
+	"mapversion" "79"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "78"
+	"mapversion" "79"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -256,82 +256,6 @@ world
 		editor
 		{
 			"color" "0 255 236"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "104341"
-		side
-		{
-			"id" "19930"
-			"plane" "(682 -566 -604.021) (2048 -566 -604.021) (2048 -1389 -604.021)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "19931"
-			"plane" "(682 -1389 -663.021) (2048 -1389 -663.021) (2048 -566 -663.021)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "19932"
-			"plane" "(682 -566 -604.021) (682 -1389 -604.021) (682 -1389 -663.021)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "19933"
-			"plane" "(2048 -566 -663.021) (2048 -1389 -663.021) (2048 -1389 -604.021)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "19934"
-			"plane" "(2048 -566 -604.021) (682 -566 -604.021) (682 -566 -663.021)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "19935"
-			"plane" "(2048 -1389 -663.021) (682 -1389 -663.021) (682 -1389 -604.021)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 251 152"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -99301,8 +99225,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[-694.507 -1620.38 -366.475]"
-		"look" "[-646.661 -1608.08 -369.237]"
+		"position" "[1816.37 -830.2 -564.069]"
+		"look" "[1793.08 -873.306 -570.955]"
 	}
 }
 cordons
