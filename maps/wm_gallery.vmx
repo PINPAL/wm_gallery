@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8456"
-	"mapversion" "80"
+	"mapversion" "82"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "80"
+	"mapversion" "82"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1353,7 +1353,7 @@ world
 		side
 		{
 			"id" "20190"
-			"plane" "(-447 -1005 -368.544) (-294 -1005 -368.544) (-294 -1026 -368.544)"
+			"plane" "(-455 -1005 -352) (-294 -1005 -352) (-294 -1027 -352)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1364,7 +1364,7 @@ world
 		side
 		{
 			"id" "20191"
-			"plane" "(-447 -1026 -528.544) (-294 -1026 -528.544) (-294 -1005 -528.544)"
+			"plane" "(-455 -1027 -528.544) (-294 -1027 -528.544) (-294 -1005 -528.544)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1375,7 +1375,7 @@ world
 		side
 		{
 			"id" "20192"
-			"plane" "(-447 -1005 -368.544) (-447 -1026 -368.544) (-447 -1026 -528.544)"
+			"plane" "(-455 -1005 -352) (-455 -1027 -352) (-455 -1027 -528.544)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1386,7 +1386,7 @@ world
 		side
 		{
 			"id" "20193"
-			"plane" "(-294 -1005 -528.544) (-294 -1026 -528.544) (-294 -1026 -368.544)"
+			"plane" "(-294 -1005 -528.544) (-294 -1027 -528.544) (-294 -1027 -352)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1397,7 +1397,7 @@ world
 		side
 		{
 			"id" "20194"
-			"plane" "(-294 -1005 -368.544) (-447 -1005 -368.544) (-447 -1005 -528.544)"
+			"plane" "(-294 -1005 -352) (-455 -1005 -352) (-455 -1005 -528.544)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1408,7 +1408,7 @@ world
 		side
 		{
 			"id" "20195"
-			"plane" "(-294 -1026 -528.544) (-447 -1026 -528.544) (-447 -1026 -368.544)"
+			"plane" "(-294 -1027 -528.544) (-455 -1027 -528.544) (-455 -1027 -352)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -92635,16 +92635,6 @@ world
 	}
 	group
 	{
-		"id" "88467"
-		editor
-		{
-			"color" "201 214 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
 		"id" "76816"
 		editor
 		{
@@ -93778,7 +93768,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "0"
-	"uniformscale" "2.38"
+	"uniformscale" "2.63"
 	"origin" "-368 -1013 -464"
 	editor
 	{
@@ -94127,16 +94117,16 @@ entity
 {
 	"id" "115755"
 	"classname" "prop_static"
-	"angles" "0 180 0"
+	"angles" "0 270 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/props/cs_office/offpaintingd.mdl"
+	"model" "models/props/de_inferno/hr_i/inferno_paintings/inferno_paintings_01.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"uniformscale" "2.90"
-	"origin" "1150 -296 -323"
+	"uniformscale" "2.38"
+	"origin" "1150 -295 -314"
 	editor
 	{
 		"color" "255 255 0"
@@ -94428,6 +94418,84 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -5768]"
+	}
+}
+entity
+{
+	"id" "123480"
+	"classname" "prop_static"
+	"angles" "0 16.5 0"
+	"disableflashlight" "0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_foliage/urban_bush02.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "0"
+	"uniformscale" "1"
+	"origin" "817 -1004 -524"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "123500"
+	"classname" "prop_static"
+	"angles" "0 16.5 0"
+	"disableflashlight" "0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_foliage/urban_bush02.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "0"
+	"uniformscale" "0.78"
+	"origin" "876 -982 -552"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
 	}
 }
 entity
@@ -96078,29 +96146,6 @@ entity
 }
 entity
 {
-	"id" "88258"
-	"classname" "prop_static"
-	"angles" "0 0 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props/de_inferno/hr_i/fountain_a/fountain_a.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "0"
-	"uniformscale" "1.21"
-	"origin" "1130 -661 -586"
-	editor
-	{
-		"color" "201 214 0"
-		"groupid" "88467"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -13268]"
-	}
-}
-entity
-{
 	"id" "88554"
 	"classname" "trigger_hurt"
 	"damage" "2000"
@@ -96598,7 +96643,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "0"
-	"uniformscale" "3.02"
+	"uniformscale" "3.33"
 	"origin" "-372 -1016 -528"
 	editor
 	{
@@ -99257,8 +99302,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[1465.18 -170.059 -226.417]"
-		"look" "[1437.28 -205.258 -247.17]"
+		"position" "[-301.904 -776.946 -333.694]"
+		"look" "[-308.99 -824.963 -343.304]"
 	}
 }
 cordons
