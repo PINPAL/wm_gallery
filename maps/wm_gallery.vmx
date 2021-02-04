@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8456"
-	"mapversion" "78"
+	"mapversion" "80"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "78"
+	"mapversion" "80"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -256,82 +256,6 @@ world
 		editor
 		{
 			"color" "0 255 236"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "104341"
-		side
-		{
-			"id" "19930"
-			"plane" "(682 -566 -604.021) (2048 -566 -604.021) (2048 -1389 -604.021)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "19931"
-			"plane" "(682 -1389 -663.021) (2048 -1389 -663.021) (2048 -566 -663.021)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "19932"
-			"plane" "(682 -566 -604.021) (682 -1389 -604.021) (682 -1389 -663.021)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "19933"
-			"plane" "(2048 -566 -663.021) (2048 -1389 -663.021) (2048 -1389 -604.021)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "19934"
-			"plane" "(2048 -566 -604.021) (682 -566 -604.021) (682 -566 -663.021)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "19935"
-			"plane" "(2048 -1389 -663.021) (682 -1389 -663.021) (682 -1389 -604.021)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 251 152"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -94352,20 +94276,36 @@ entity
 entity
 {
 	"id" "116941"
-	"classname" "prop_static"
+	"classname" "prop_dynamic"
 	"angles" "0 0 0"
+	"body" "0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"HoldAnimation" "0"
+	"is_autoaim_target" "0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
 	"model" "models/props/cs_militia/paintbucket01.mdl"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
 	"skin" "0"
 	"solid" "6"
-	"uniformscale" "1"
+	"spawnflags" "0"
+	"StartDisabled" "0"
 	"origin" "1357 -406 -375"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -11268]"
@@ -94374,20 +94314,36 @@ entity
 entity
 {
 	"id" "117043"
-	"classname" "prop_static"
+	"classname" "prop_dynamic"
 	"angles" "0 0 0"
+	"body" "0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"HoldAnimation" "0"
+	"is_autoaim_target" "0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
 	"model" "models/props/de_nuke/hr_nuke/nuke_paint_bucket/nuke_paint_bucket.mdl"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
 	"skin" "0"
 	"solid" "0"
-	"uniformscale" "1"
+	"spawnflags" "0"
+	"StartDisabled" "0"
 	"origin" "1268 -402 -383.634"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -9268]"
@@ -94419,7 +94375,7 @@ entity
 {
 	"id" "117317"
 	"classname" "infodecal"
-	"angles" "0 0 0"
+	"angles" "1 1 1"
 	"texture" "overlays/urban_paintswatch_04a"
 	"origin" "1242 -465 -369"
 	editor
@@ -99301,8 +99257,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[-694.507 -1620.38 -366.475]"
-		"look" "[-646.661 -1608.08 -369.237]"
+		"position" "[1465.18 -170.059 -226.417]"
+		"look" "[1437.28 -205.258 -247.17]"
 	}
 }
 cordons

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8456"
-	"mapversion" "79"
+	"mapversion" "81"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "79"
+	"mapversion" "81"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -94127,16 +94127,16 @@ entity
 {
 	"id" "115755"
 	"classname" "prop_static"
-	"angles" "0 180 0"
+	"angles" "0 270 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/props/cs_office/offpaintingd.mdl"
+	"model" "models/props/de_inferno/hr_i/inferno_paintings/inferno_paintings_01.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"uniformscale" "2.90"
-	"origin" "1150 -296 -323"
+	"uniformscale" "2.38"
+	"origin" "1150 -295 -314"
 	editor
 	{
 		"color" "255 255 0"
@@ -94276,20 +94276,36 @@ entity
 entity
 {
 	"id" "116941"
-	"classname" "prop_static"
+	"classname" "prop_dynamic"
 	"angles" "0 0 0"
+	"body" "0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"HoldAnimation" "0"
+	"is_autoaim_target" "0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
 	"model" "models/props/cs_militia/paintbucket01.mdl"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
 	"skin" "0"
 	"solid" "6"
-	"uniformscale" "1"
+	"spawnflags" "0"
+	"StartDisabled" "0"
 	"origin" "1357 -406 -375"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -11268]"
@@ -94298,20 +94314,36 @@ entity
 entity
 {
 	"id" "117043"
-	"classname" "prop_static"
+	"classname" "prop_dynamic"
 	"angles" "0 0 0"
+	"body" "0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"HoldAnimation" "0"
+	"is_autoaim_target" "0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
 	"model" "models/props/de_nuke/hr_nuke/nuke_paint_bucket/nuke_paint_bucket.mdl"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
 	"skin" "0"
 	"solid" "0"
-	"uniformscale" "1"
+	"spawnflags" "0"
+	"StartDisabled" "0"
 	"origin" "1268 -402 -383.634"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -9268]"
@@ -94343,7 +94375,7 @@ entity
 {
 	"id" "117317"
 	"classname" "infodecal"
-	"angles" "0 0 0"
+	"angles" "1 1 1"
 	"texture" "overlays/urban_paintswatch_04a"
 	"origin" "1242 -465 -369"
 	editor
@@ -99225,8 +99257,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[1816.37 -830.2 -564.069]"
-		"look" "[1793.08 -873.306 -570.955]"
+		"position" "[1208.47 -379.236 -276.206]"
+		"look" "[1193.8 -332.973 -285.816]"
 	}
 }
 cordons

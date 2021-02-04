@@ -6354,3 +6354,148 @@ Total triangle count: 12752
 Writing f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp
 MSG_FILEWRITE - Filesystem was asked to write to 'f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp', but we don't own that location. Allowing...
 14 seconds elapsed
+
+
+
+materialPath: F:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.vmf
+Map revision 79
+Patching WVT material: maps/wm_gallery/de_aztec/hr_aztec/hr_aztec_blend_wall_stone_03_mud-grey_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (239811 bytes)
+Error! prop_static using model "models/props/cs_office/offpaintingd.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props/cs_office/offpaintingd.mdl"!
+Error! prop_static using model "models/props/cs_militia/paintbucket01.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props/cs_militia/paintbucket01.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 473 texinfos to 306
+Reduced 31 texdatas to 21 (1039 bytes to 583)
+Writing f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+20 threads
+reading f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp
+reading f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.prt
+1554 portalclusters
+5288 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 83869 visible clusters (0.00%)
+Total clusters visible: 2052882
+Average clusters visible: 1321
+Building PAS...
+Average clusters audible: 1553
+visdatasize:608190  compressed from 621600
+writing f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp
+4457 faces
+22 degenerate faces
+1525731 square feet [219705280.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4435 patches before subdivision
+72875 patches after subdivision
+20 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 7093369, max 1297
+transfer lists:  54.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(272989, 268978, 248490)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(92917, 90467, 83598)
+Build Patch/Sample Hash Table(s).....Done<0.0100 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3..
+
+
+materialPath: F:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.vmf
+Map revision 80
+Patching WVT material: maps/wm_gallery/de_aztec/hr_aztec/hr_aztec_blend_wall_stone_03_mud-grey_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (239811 bytes)
+Error! prop_static using model "models/props/cs_office/offpaintingd.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props/cs_office/offpaintingd.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 473 texinfos to 306
+Reduced 31 texdatas to 21 (1039 bytes to 583)
+Writing f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+20 threads
+reading f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp
+reading f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.prt
+1554 portalclusters
+5288 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 83869 visible clusters (0.00%)
+Total clusters visible: 2052882
+Average clusters visible: 1321
+Building PAS...
+Average clusters audible: 1553
+visdatasize:608190  compressed from 621600
+writing f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp
+4457 faces
+22 degenerate faces
+1525731 square feet [219705280.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4435 patches before subdivision
+72875 patches after subdivision
+20 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7.
