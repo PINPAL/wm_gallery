@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8456"
-	"mapversion" "91"
+	"mapversion" "96"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "91"
+	"mapversion" "96"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -136,10 +136,10 @@ world
 		side
 		{
 			"id" "21328"
-			"plane" "(-389.854 -1436.67 -278.942) (-339.101 -1413 -278.942) (-326 -1441.1 -278.942)"
+			"plane" "(-390.854 -1436.67 -278.942) (-340.101 -1413 -278.942) (-327 -1441.1 -278.942)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[0.906308 0.422618 0 -58.0415] 0.25"
-			"vaxis" "[0.422618 -0.906308 0 46.79] 0.25"
+			"uaxis" "[0.906308 0.422618 0 -54.4162] 0.25"
+			"vaxis" "[0.422618 -0.906308 0 48.4804] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -147,10 +147,10 @@ world
 		side
 		{
 			"id" "21329"
-			"plane" "(-376.753 -1464.76 -412.942) (-326 -1441.1 -412.942) (-339.101 -1413 -412.942)"
+			"plane" "(-377.753 -1464.76 -412.942) (-327 -1441.1 -412.942) (-340.101 -1413 -412.942)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[0.906308 0.422618 0 -58.0415] 0.25"
-			"vaxis" "[0.422618 -0.906308 0 46.79] 0.25"
+			"uaxis" "[0.906308 0.422618 0 -54.4162] 0.25"
+			"vaxis" "[0.422618 -0.906308 0 48.4804] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -158,9 +158,9 @@ world
 		side
 		{
 			"id" "21330"
-			"plane" "(-389.854 -1436.67 -278.942) (-376.753 -1464.76 -278.942) (-376.753 -1464.76 -412.942)"
+			"plane" "(-390.854 -1436.67 -278.942) (-377.753 -1464.76 -278.942) (-377.753 -1464.76 -412.942)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[-0.422618 0.906308 0 -46.79] 0.25"
+			"uaxis" "[-0.422618 0.906308 0 -48.4804] 0.25"
 			"vaxis" "[0 0 -1 20] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -169,9 +169,9 @@ world
 		side
 		{
 			"id" "21331"
-			"plane" "(-339.101 -1413 -412.942) (-326 -1441.1 -412.942) (-326 -1441.1 -278.942)"
+			"plane" "(-340.101 -1413 -412.942) (-327 -1441.1 -412.942) (-327 -1441.1 -278.942)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[-0.422618 0.906308 0 -46.79] 0.25"
+			"uaxis" "[-0.422618 0.906308 0 -48.4804] 0.25"
 			"vaxis" "[0 0 -1 20] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -180,9 +180,9 @@ world
 		side
 		{
 			"id" "21332"
-			"plane" "(-339.101 -1413 -278.942) (-389.854 -1436.67 -278.942) (-389.854 -1436.67 -412.942)"
+			"plane" "(-340.101 -1413 -278.942) (-390.854 -1436.67 -278.942) (-390.854 -1436.67 -412.942)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[0.906308 0.422618 0 -58.0415] 0.25"
+			"uaxis" "[0.906308 0.422618 0 -54.4162] 0.25"
 			"vaxis" "[0 0 -1 20] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -191,9 +191,9 @@ world
 		side
 		{
 			"id" "21333"
-			"plane" "(-326 -1441.1 -412.942) (-376.753 -1464.76 -412.942) (-376.753 -1464.76 -278.942)"
+			"plane" "(-327 -1441.1 -412.942) (-377.753 -1464.76 -412.942) (-377.753 -1464.76 -278.942)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[0.906308 0.422618 0 -58.0415] 0.25"
+			"uaxis" "[0.906308 0.422618 0 -54.4162] 0.25"
 			"vaxis" "[0 0 -1 20] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -278,6 +278,322 @@ world
 		editor
 		{
 			"color" "0 207 224"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "132913"
+		side
+		{
+			"id" "21346"
+			"plane" "(481 -1500 -455) (704 -1500 -455) (704 -1504 -455)"
+			"material" "BRICK/BRICKWALL046A"
+			"uaxis" "[1 0 0 0] 1"
+			"vaxis" "[0 -1 0 16] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21347"
+			"plane" "(481 -1504 -457) (704 -1504 -457) (704 -1500 -457)"
+			"material" "BRICK/BRICKWALL046A"
+			"uaxis" "[1 0 0 0] 1"
+			"vaxis" "[0 -1 0 16] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21348"
+			"plane" "(481 -1500 -455) (481 -1504 -455) (481 -1504 -457)"
+			"material" "BRICK/BRICKWALL046A"
+			"uaxis" "[0 1 0 -16] 1"
+			"vaxis" "[0 0 -1 -4] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21349"
+			"plane" "(704 -1500 -457) (704 -1504 -457) (704 -1504 -455)"
+			"material" "BRICK/BRICKWALL046A"
+			"uaxis" "[0 1 0 -16] 1"
+			"vaxis" "[0 0 -1 -4] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21350"
+			"plane" "(704 -1500 -455) (481 -1500 -455) (481 -1500 -457)"
+			"material" "BRICK/BRICKWALL046A"
+			"uaxis" "[1 0 0 0] 1"
+			"vaxis" "[0 0 -1 -4] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21351"
+			"plane" "(704 -1504 -457) (481 -1504 -457) (481 -1504 -455)"
+			"material" "BRICK/BRICKWALL046A"
+			"uaxis" "[1 0 0 0] 1"
+			"vaxis" "[0 0 -1 -4] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 173 226"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "133734"
+		side
+		{
+			"id" "21383"
+			"plane" "(79.6611 -1976.21 -400) (95.6385 -2010.24 -400) (26 -2010.16 -400)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21382"
+			"plane" "(-24 -2041 -511.025) (-24 -2063 -511.025) (91 -2070.5 -511.025)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21381"
+			"plane" "(-24 -2063 -511.024) (-24 -2041 -511.024) (-24 -2041 -432.444)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21380"
+			"plane" "(79.7278 -1976.17 -511.024) (96.0127 -2010.85 -511.024) (96 -2011 -400.802)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21379"
+			"plane" "(91 -2070.5 -511.024) (-24 -2063 -511.024) (-24 -2063 -455.543)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21378"
+			"plane" "(96.0132 -2010.85 -511.024) (91 -2070.5 -511.024) (91 -2070.5 -463.282)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21377"
+			"plane" "(-24 -2063 -455.542) (-24 -2041 -432.443) (20.7841 -2013 -403)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21376"
+			"plane" "(26 -2009.75 -400) (26 -2010.16 -400) (20.7915 -2013 -403)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21375"
+			"plane" "(-24 -2041 -511.024) (79.7275 -1976.17 -511.024) (79.6641 -1976.21 -400)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 156 133"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "133735"
+		side
+		{
+			"id" "21394"
+			"plane" "(26 -1953.66 -400) (48.2539 -1950.13 -400) (75.7457 -1967.87 -400)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21393"
+			"plane" "(-24 -2018 -511.025) (-24 -2041 -511.025) (79.7241 -1976.17 -511.025)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21392"
+			"plane" "(-24 -2041 -511.024) (-24 -2018 -511.024) (-24 -2019.47 -428.727)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21391"
+			"plane" "(75.8708 -1967.96 -511.024) (79.7278 -1976.17 -511.024) (79.6628 -1976.21 -400)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21390"
+			"plane" "(-15.3858 -1975.35 -511.024) (5 -1957 -511.024) (5 -1957 -412.063)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21389"
+			"plane" "(5 -1957 -511.024) (48.2517 -1950.13 -511.024) (48.2547 -1950.13 -400)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21388"
+			"plane" "(-24 -2018 -511.024) (-15.3854 -1975.35 -511.024) (-15 -1975 -423.553)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21387"
+			"plane" "(48.2539 -1950.13 -511.024) (75.869 -1967.95 -511.024) (75.75 -1967.88 -400)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21386"
+			"plane" "(-24 -2041 -432.443) (-24 -2037.46 -428.729) (20.7841 -2013 -403)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21385"
+			"plane" "(-24 -2037.46 -428.729) (-24 -2019.47 -428.727) (-15 -1975 -423.554)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21384"
+			"plane" "(79.7266 -1976.17 -511.024) (-24 -2041 -511.024) (-24 -2041 -432.443)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 156 133"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -13276,126 +13592,6 @@ world
 		{
 			"color" "220 220 220"
 			"groupid" "77732"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "77941"
-		side
-		{
-			"id" "17937"
-			"plane" "(5 -1957 -394.025) (48.25 -1950.13 -394.025) (75.75 -1967.88 -394.025)"
-			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "17938"
-			"plane" "(91 -2070.5 -511.025) (96 -2011 -511.025) (75.75 -1967.88 -511.025)"
-			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "17939"
-			"plane" "(-24 -2018 -511.025) (-24 -2018 -394.025) (-24 -2063 -394.025)"
-			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "17940"
-			"plane" "(75.75 -1967.88 -394.025) (75.75 -1967.88 -511.025) (96 -2011 -511.025)"
-			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "17941"
-			"plane" "(5 -1957 -511.025) (5 -1957 -394.025) (-15 -1975 -394.025)"
-			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "17942"
-			"plane" "(91 -2070.5 -394.025) (91 -2070.5 -511.025) (-24 -2063 -511.025)"
-			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "17968"
-			"plane" "(5 -1957 -394.025) (5 -1957 -511.025) (48.25 -1950.13 -511.025)"
-			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "17969"
-			"plane" "(-24 -2018 -394.025) (-24 -2018 -511.025) (-15 -1975 -511.025)"
-			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "17970"
-			"plane" "(91 -2070.5 -511.025) (91 -2070.5 -394.025) (96 -2011 -394.025)"
-			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "17971"
-			"plane" "(75.75 -1967.88 -511.025) (75.75 -1967.88 -394.025) (48.25 -1950.13 -394.025)"
-			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 156 133"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -71470,7 +71666,7 @@ world
 		{
 			"id" "9870"
 			"plane" "(704 -1280 -640) (704 -1280 -512) (480 -1280 -512)"
-			"material" "CONCRETE/HR_C/HR_CONCRETE_POLISHED_001"
+			"material" "HR_MASSIVE/GROUND_TILE_5"
 			"uaxis" "[1 0 0 -128] 0.25"
 			"vaxis" "[0 0 -1 -224] 0.25"
 			"rotation" "0"
@@ -71481,7 +71677,7 @@ world
 		{
 			"id" "9869"
 			"plane" "(480 -1504 -640) (480 -1504 -456) (704 -1504 -456)"
-			"material" "CONCRETE/HR_C/HR_CONCRETE_POLISHED_001"
+			"material" "HR_MASSIVE/GROUND_TILE_5"
 			"uaxis" "[1 0 0 -128] 0.25"
 			"vaxis" "[0 0 -1 -224] 0.25"
 			"rotation" "0"
@@ -71492,7 +71688,7 @@ world
 		{
 			"id" "9868"
 			"plane" "(704 -1504 -640) (704 -1504 -456) (704 -1280 -512)"
-			"material" "CONCRETE/HR_C/HR_CONCRETE_POLISHED_001"
+			"material" "HR_MASSIVE/GROUND_TILE_5"
 			"uaxis" "[0 -1 0 -128] 0.25"
 			"vaxis" "[0 0 -1 -224] 0.25"
 			"rotation" "0"
@@ -71503,7 +71699,7 @@ world
 		{
 			"id" "9867"
 			"plane" "(480 -1280 -640) (480 -1280 -512) (480 -1504 -456)"
-			"material" "CONCRETE/HR_C/HR_CONCRETE_POLISHED_001"
+			"material" "HR_MASSIVE/GROUND_TILE_5"
 			"uaxis" "[0 -1 0 -128] 0.25"
 			"vaxis" "[0 0 -1 -224] 0.25"
 			"rotation" "0"
@@ -71514,7 +71710,7 @@ world
 		{
 			"id" "9866"
 			"plane" "(480 -1280 -512) (704 -1280 -512) (704 -1504 -456)"
-			"material" "CONCRETE/HR_C/HR_CONCRETE_POLISHED_001"
+			"material" "HR_MASSIVE/GROUND_TILE_5"
 			"uaxis" "[0 -1 0 -128] 0.25"
 			"vaxis" "[-1 0 0 128] 0.25"
 			"rotation" "0"
@@ -71525,7 +71721,7 @@ world
 		{
 			"id" "9865"
 			"plane" "(480 -1504 -640) (704 -1504 -640) (704 -1280 -640)"
-			"material" "CONCRETE/HR_C/HR_CONCRETE_POLISHED_001"
+			"material" "HR_MASSIVE/GROUND_TILE_5"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -96007,6 +96203,28 @@ world
 }
 entity
 {
+	"id" "133771"
+	"classname" "prop_static"
+	"angles" "0 41 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props/hr_massive/foliage_ported/fir_tree_1b.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"uniformscale" "1.87"
+	"origin" "-1135 -1194 -505.261"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 12000]"
+	}
+}
+entity
+{
 	"id" "130301"
 	"classname" "prop_static"
 	"angles" "0 61 0"
@@ -99679,7 +99897,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "35 -2004 -502"
+	"origin" "40 -2005 -507"
 	editor
 	{
 		"color" "255 255 0"
@@ -102532,8 +102750,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[-475.613 -1568.23 -379.746]"
-		"look" "[-432.297 -1545.55 -372.177]"
+		"position" "[-1339.14 -1112.6 -386.897]"
+		"look" "[-1299.19 -1131.06 -409.514]"
 	}
 }
 cordons
