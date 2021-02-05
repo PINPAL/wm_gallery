@@ -108821,55 +108821,11 @@ world
 	}
 	group
 	{
-		"id" "148792"
-		editor
-		{
-			"color" "119 104 0"
-			"groupid" "148791"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "148797"
-		editor
-		{
-			"color" "119 104 0"
-			"groupid" "148791"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
 		"id" "148868"
 		editor
 		{
 			"color" "119 104 0"
 			"groupid" "148945"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "148869"
-		editor
-		{
-			"color" "119 104 0"
-			"groupid" "148868"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "148874"
-		editor
-		{
-			"color" "119 104 0"
-			"groupid" "148868"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
