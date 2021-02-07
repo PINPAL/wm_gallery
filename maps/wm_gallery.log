@@ -8145,3 +8145,247 @@ Total triangle count: 17369
 Writing f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp
 MSG_FILEWRITE - Filesystem was asked to write to 'f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp', but we don't own that location. Allowing...
 20 seconds elapsed
+
+
+
+materialPath: F:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.vmf
+Map revision 134
+Patching WVT material: maps/wm_gallery/de_aztec/hr_aztec/hr_aztec_blend_wall_stone_03_mud-grey_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-1072.00 -864.00 -503.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (985.5 -593.6 -568.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 104358: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (985.4 -594.8 -567.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 104358: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (883.6 -639.2 -523.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 104358: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (824.9 -624.6 -527.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 104358: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (816.1 -613.7 -527.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 104358: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (922.0 -729.3 -527.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 104358: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (916.9 -739.2 -527.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 104358: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (941.6 -711.3 -527.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 104358: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (325832 bytes)
+Static prop models/agency/electrical/railing_glass.mdl outside the map (684.29, 109.10, -383.75)
+Static prop models/agency/electrical/railing_glass.mdl outside the map (-978.00, 2475.00, -512.00)
+Static prop models/agency/electrical/railing_glass.mdl outside the map (-1106.00, 2475.00, -512.00)
+Static prop models/props/de_cbble/fountain_stat_a/fountain_stat_a.mdl outside the map (421.00, 2623.00, -206.00)
+Static prop models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_002_76.mdl outside the map (-345.00, -536.00, -441.00)
+Static prop models/props/de_inferno/hr_i/ivy_a/ivy_a.mdl outside the map (1371.00, -531.00, -90.00)
+Static prop models/props/de_inferno/hr_i/ivy_a/ivy_a.mdl outside the map (1541.00, -531.00, -90.00)
+Static prop models/props/de_inferno/hr_i/ivy_a/ivy_a.mdl outside the map (1493.00, -531.00, -28.00)
+Static prop models/props_foliage/urban_hedge_256_128_high.mdl outside the map (-1071.00, -864.00, -392.21)
+Static prop models/props_foliage/urban_hedge_256_128_high.mdl outside the map (-1071.00, -608.00, -392.21)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 754 texinfos to 504
+Reduced 42 texdatas to 31 (1287 bytes to 812)
+Writing f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+20 threads
+reading f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp
+reading f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.prt
+LoadPortals: couldn't read f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.prt
+
+
+
+materialPath: F:\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.vmf
+Map revision 134
+Patching WVT material: maps/wm_gallery/de_aztec/hr_aztec/hr_aztec_blend_wall_stone_03_mud-grey_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-1072.00 -864.00 -503.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (985.5 -593.6 -568.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 104358: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (985.4 -594.8 -567.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 104358: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (883.6 -639.2 -523.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 104358: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (824.9 -624.6 -527.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 104358: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (816.1 -613.7 -527.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 104358: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (922.0 -729.3 -527.0)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 104358: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (916.9 -739.2 -527.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 104358: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (941.6 -711.3 -527.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 104358: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (325832 bytes)
+Static prop models/agency/electrical/railing_glass.mdl outside the map (684.29, 109.10, -383.75)
+Static prop models/agency/electrical/railing_glass.mdl outside the map (-978.00, 2475.00, -512.00)
+Static prop models/agency/electrical/railing_glass.mdl outside the map (-1106.00, 2475.00, -512.00)
+Static prop models/props/de_cbble/fountain_stat_a/fountain_stat_a.mdl outside the map (421.00, 2623.00, -206.00)
+Static prop models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_002_76.mdl outside the map (-345.00, -536.00, -441.00)
+Static prop models/props/de_inferno/hr_i/ivy_a/ivy_a.mdl outside the map (1371.00, -531.00, -90.00)
+Static prop models/props/de_inferno/hr_i/ivy_a/ivy_a.mdl outside the map (1541.00, -531.00, -90.00)
+Static prop models/props/de_inferno/hr_i/ivy_a/ivy_a.mdl outside the map (1493.00, -531.00, -28.00)
+Static prop models/props_foliage/urban_hedge_256_128_high.mdl outside the map (-1071.00, -864.00, -392.21)
+Static prop models/props_foliage/urban_hedge_256_128_high.mdl outside the map (-1071.00, -608.00, -392.21)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 754 texinfos to 504
+Reduced 42 texdatas to 31 (1287 bytes to 812)
+Writing f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
+
+
+
+20 threads
+reading f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.bsp
+reading f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.prt
+LoadPortals: couldn't read f:\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\wm_gallery.prt
