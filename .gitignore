@@ -6,4 +6,4 @@ maps/*
 !.gitignore
 !/compiledMap/*
 !/maps/wm_gallery*
-
+!README.md
