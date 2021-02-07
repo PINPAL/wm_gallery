@@ -13,8 +13,9 @@
 
 - Add A site grenade lineup window from Extended A.
 - Make walls on B Site Fountain thinner.
+- Replace statue with a fountain on B Site Fountain
 
-**RADAR**
+**RADAR:**
 
 - Fix Window back wall so it aligns with radar.
 - Redo Radar in a proper "radar" art style.
