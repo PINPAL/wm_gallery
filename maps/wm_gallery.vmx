@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8456"
-	"mapversion" "154"
+	"mapversion" "155"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "154"
+	"mapversion" "155"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -110057,7 +110057,7 @@ entity
 	"classname" "prop_physics_multiplayer"
 	"angles" "0 291 0"
 	"body" "0"
-	"damagetoenablemotion" "0"
+	"damagetoenablemotion" "1"
 	"Damagetype" "0"
 	"disablereceiveshadows" "0"
 	"ExplodeDamage" "0"
@@ -110492,7 +110492,7 @@ entity
 	"classname" "prop_physics_multiplayer"
 	"angles" "0 187.5 0"
 	"body" "0"
-	"damagetoenablemotion" "0"
+	"damagetoenablemotion" "1"
 	"Damagetype" "0"
 	"disablereceiveshadows" "0"
 	"ExplodeDamage" "0"

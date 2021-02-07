@@ -1,0 +1,9 @@
+// Overview: scale 6.00, pos_x -2334, pos_y 3164
+
+"wm_gallery"
+{
+"material" "overviews/wm_gallery"
+"pos_x" "-2334"
+"pos_y" "3164"
+"scale" "6"
+}
