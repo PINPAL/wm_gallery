@@ -15,19 +15,9 @@
 - Make walls on B Site Fountain thinner.
 - Replace statue with a fountain on B Site Fountain
 - Add visgroups
+- Add Stairs on B Insertion to Deck
 
 **RADAR:**
 
 - Fix Window back wall so it aligns with radar.
 - Redo Radar in a proper "radar" art style.
-
-**NAVMESH:**
-
-- Rename under B heaven -> Hell
-- Rename B ramp -> Ramp
-- Rename upper park -> Short
-- Rename lower park -> Patio
-- Add B drop bridge -> Bridge
-- Add drop down -> Scaffolding
-- Rename old patio -> Ivy
-- Extend Yellow area for better clarity.
