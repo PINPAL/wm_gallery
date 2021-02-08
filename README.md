@@ -14,6 +14,7 @@
 - Add A site grenade lineup window from Extended A.
 - Make walls on B Site Fountain thinner.
 - Replace statue with a fountain on B Site Fountain
+- Add visgroups
 
 **RADAR:**
 
