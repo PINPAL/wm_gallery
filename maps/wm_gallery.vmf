@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8456"
-	"mapversion" "192"
+	"mapversion" "193"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "192"
+	"mapversion" "193"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -117965,7 +117965,7 @@ entity
 	"classname" "prop_physics_multiplayer"
 	"angles" "0 105.5 0"
 	"body" "0"
-	"damagetoenablemotion" "0"
+	"damagetoenablemotion" "1"
 	"Damagetype" "0"
 	"disablereceiveshadows" "0"
 	"ExplodeDamage" "0"
@@ -117976,7 +117976,7 @@ entity
 	"forcetoenablemotion" "0"
 	"inertiaScale" "1.0"
 	"massScale" "0"
-	"minhealthdmg" "0"
+	"minhealthdmg" "1"
 	"model" "models/props_unique/coffeemachine01.mdl"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
@@ -124021,8 +124021,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-598.727 -1844.03 -420.976]"
-		"look" "[-599.285 -1844.46 -421.686]"
+		"position" "[-576.503 -1873.12 -420.72]"
+		"look" "[-575.96 -1873.95 -420.853]"
 	}
 }
 cordons
