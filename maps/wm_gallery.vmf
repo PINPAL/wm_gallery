@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8456"
-	"mapversion" "188"
+	"mapversion" "189"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "188"
+	"mapversion" "189"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -245,7 +245,7 @@ world
 		side
 		{
 			"id" "29027"
-			"plane" "(-1024 -2048 -512) (-1024 -1283 -512) (-637.012 -1283.93 -512)"
+			"plane" "(-1024 -1283 -512) (-637.012 -1283.93 -512) (-387 -1368 -512)"
 			"material" "HR_MASSIVE/DIRT_GROUND_1B_NOGRASS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -256,7 +256,7 @@ world
 		side
 		{
 			"id" "29026"
-			"plane" "(-636.988 -1283.94 -663) (-1024 -1283 -663) (-1024 -2048 -663)"
+			"plane" "(-1024 -1283 -663) (-1024 -2048 -663) (-387 -1369 -663)"
 			"material" "HR_MASSIVE/DIRT_GROUND_1B_NOGRASS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -267,7 +267,7 @@ world
 		side
 		{
 			"id" "29025"
-			"plane" "(-1024 -2048 -663) (-1024 -1283 -663) (-1024 -1283 -512)"
+			"plane" "(-1024 -1283 -663) (-1024 -1283 -512) (-1024 -2048 -512)"
 			"material" "HR_MASSIVE/DIRT_GROUND_1B_NOGRASS"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -278,7 +278,7 @@ world
 		side
 		{
 			"id" "29024"
-			"plane" "(-1024 -1283 -663) (-637 -1283.93 -663) (-637 -1283.93 -512)"
+			"plane" "(-636.988 -1283.94 -663) (-637.012 -1283.93 -512) (-1024 -1283 -512)"
 			"material" "HR_MASSIVE/DIRT_GROUND_1B_NOGRASS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -289,7 +289,7 @@ world
 		side
 		{
 			"id" "29023"
-			"plane" "(-637 -1283.93 -663) (-383 -1364.07 -663) (-383 -1364.07 -512)"
+			"plane" "(-387 -1368 -663) (-387 -1368 -512) (-637.012 -1283.93 -512)"
 			"material" "HR_MASSIVE/DIRT_GROUND_1B_NOGRASS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -300,7 +300,7 @@ world
 		side
 		{
 			"id" "29022"
-			"plane" "(-383 -1364.07 -663) (-382.702 -1364.68 -663) (-382.701 -1364.68 -512)"
+			"plane" "(-387 -1369 -663) (-387 -1369 -512) (-387 -1368 -512)"
 			"material" "HR_MASSIVE/DIRT_GROUND_1B_NOGRASS"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -311,7 +311,7 @@ world
 		side
 		{
 			"id" "29021"
-			"plane" "(-382.701 -1364.68 -663) (-1024 -2048 -663) (-1024 -2048 -512)"
+			"plane" "(-1024 -2048 -663) (-1024 -2048 -512) (-387 -1369 -512)"
 			"material" "HR_MASSIVE/DIRT_GROUND_1B_NOGRASS"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -332,7 +332,7 @@ world
 		side
 		{
 			"id" "29033"
-			"plane" "(-253 -2048 -512) (-1024 -2048 -512) (-382.702 -1364.68 -512)"
+			"plane" "(-1024 -2048 -512) (-383 -1366 -512) (-267 -1633 -512)"
 			"material" "HR_MASSIVE/DIRT_GROUND_1B_NOGRASS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -343,7 +343,7 @@ world
 		side
 		{
 			"id" "29032"
-			"plane" "(-1024 -2048 -663) (-253 -2048 -663) (-253 -1633.44 -663)"
+			"plane" "(-253 -2048 -663) (-267 -1633 -663) (-383 -1366 -663)"
 			"material" "HR_MASSIVE/DIRT_GROUND_1B_NOGRASS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -354,7 +354,7 @@ world
 		side
 		{
 			"id" "29031"
-			"plane" "(-253 -2048 -663) (-1024 -2048 -663) (-1024 -2048 -512)"
+			"plane" "(-1024 -2048 -663) (-1024 -2048 -512) (-253 -2048 -512)"
 			"material" "HR_MASSIVE/DIRT_GROUND_1B_NOGRASS"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -365,7 +365,7 @@ world
 		side
 		{
 			"id" "29030"
-			"plane" "(-253 -1633.44 -663) (-253 -2048 -663) (-253 -2048 -512)"
+			"plane" "(-253 -2048 -663) (-253 -2048 -512) (-267 -1633 -512)"
 			"material" "HR_MASSIVE/DIRT_GROUND_1B_NOGRASS"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -376,7 +376,7 @@ world
 		side
 		{
 			"id" "29029"
-			"plane" "(-382.702 -1364.68 -663) (-253 -1633.44 -663) (-253 -1633.44 -512)"
+			"plane" "(-267 -1633 -663) (-267 -1633 -512) (-383 -1366 -512)"
 			"material" "HR_MASSIVE/DIRT_GROUND_1B_NOGRASS"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -387,7 +387,7 @@ world
 		side
 		{
 			"id" "29028"
-			"plane" "(-1024 -2048 -663) (-382.702 -1364.68 -663) (-382.701 -1364.68 -512)"
+			"plane" "(-383 -1366 -663) (-383 -1366 -512) (-1024 -2048 -512)"
 			"material" "HR_MASSIVE/DIRT_GROUND_1B_NOGRASS"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -124025,8 +124025,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-324.194 -1864.07 -281.448]"
-		"look" "[-323.344 -1864.58 -281.33]"
+		"position" "[-306.331 -1294.22 -418.881]"
+		"look" "[-306.9 -1294.78 -419.48]"
 	}
 }
 cordons
