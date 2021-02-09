@@ -20,3 +20,20 @@
 
 - Fix Window back wall so it aligns with radar.
 - Redo Radar in a proper "radar" art style.
+
+# Gameplay Feedback
+
+- Window sucks due to wallbang
+- Add more cover to gift shop (block bridge to mid)
+- Low walls to high
+- Make rock on lock (lookg from ct brigther)
+- B bombsite quick site to heaven
+- Dirty mid angle
+- Delete the cones
+- B bombsite bad
+- One way wall in ivy
+- Plant pot on A not wallbangable
+- Mid window glass not walbangable
+- Construction needs other way out
+- Mid very open and empty
+- Make yellow easier to jump up
