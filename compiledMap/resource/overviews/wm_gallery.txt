@@ -1,9 +1,21 @@
-// Overview: scale 6.00, pos_x -2334, pos_y 3164
+// Overview: scale 5.00, pos_x -2688, pos_y 11c
 
 "wm_gallery"
 {
-"material" "overviews/wm_gallery"
-"pos_x" "-2334"
-"pos_y" "3164"
-"scale" "6"
+	"material"	"overviews/wm_gallery_radar"
+	"pos_x"		"-2688"
+	"pos_y"		"11"
+	"scale"		"5"
+
+	"bombB_x"	"0.75"
+	"bombB_y"	"0.81"
+	
+	"bombA_x"	"0.63"
+	"bombA_y"	"0.30"
+
+	"TSpawn_x"	"0.27"
+	"TSpawn_y"	"0.52"
+
+	"CTSpawn_x"	"0.81"
+	"CTSpawn_y"	"0.57"
 }

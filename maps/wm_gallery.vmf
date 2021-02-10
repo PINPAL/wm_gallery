@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8456"
-	"mapversion" "213"
+	"mapversion" "214"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "213"
+	"mapversion" "214"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -69508,7 +69508,7 @@ entity
 	"id" "411047"
 	"classname" "func_bomb_target"
 	"heistbomb" "0"
-	"targetname" "BombsiteB"
+	"targetname" "Bombsite B"
 	solid
 	{
 		"id" "411045"
@@ -78085,8 +78085,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-1168.05 -1471.81 1046.15]"
-		"look" "[-1167.67 -1472.67 1045.79]"
+		"position" "[902.737 -4372.58 901.806]"
+		"look" "[903.545 -4372.07 901.485]"
 	}
 }
 cordons

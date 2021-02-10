@@ -25,7 +25,8 @@
 
 - Window sucks due to wallbang
 - Add more cover to gift shop (block bridge to mid)
-- Low walls to high
+- Low walls to bombsite b
+- Shipping container bad
 - Make rock on lock (lookg from ct brigther)
 - B bombsite quick site to heaven
 - Dirty mid angle
@@ -37,3 +38,8 @@
 - Construction needs other way out
 - Mid very open and empty
 - Make yellow easier to jump up
+- Shrink connector side top mid
+- Parkour back up drop
+- Move bombsite B closer
+- Heaven make smaller
+
